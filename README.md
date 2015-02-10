@@ -23,10 +23,10 @@ CodeBook.md: information about raw and tidy data set and elaboration made to tra
 LICENSE: license terms for text and code 
 README.md: this file 
 run_analysis.R: R script to transform raw data set in a tidy one 
-How to recreate the data set:\n
+How to recreate the data set:
 
-1. Download and unzip source data\n
-2. open a R session Rstudio or otherwise\n
+1. Download and unzip source data
+2. open a R session Rstudio or otherwise
 3. If needed use setwd to set the working directory to the directory where the unzipped data is
 4. source the “run_analisys.R” included in this repo
-5. The resulting file will be created as “asnswer_df2.txt “
+5. The resulting file will be created as “asnswer_df2.txt“

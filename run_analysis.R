@@ -2,7 +2,7 @@ library(data.table)
 url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 if (!file.exists("getdata_projectfiles_UCI HAR Dataset.zip")) {
-  download.file(url, destfile="getdata_projectfiles_UCI HAR Dataset.zip", method = "curl", mode = "wb")
+  download.file(url, destfile="getdata_projectfiles_UCI HAR Dataset.zip", method = "curl")
   unzip("getdata_projectfiles_UCI HAR Dataset.zip")
 }
 
